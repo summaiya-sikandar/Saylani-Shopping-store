@@ -1,0 +1,222 @@
+body{
+    font-family: Inter;
+    font-style: normal;
+}
+
+.ShoppingCart{
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.heading{
+    display: flex;
+}
+
+.delete{
+margin-left: 300px;
+margin-top: 50px;
+width: 26px;
+height: 31px;
+
+}
+
+.green{
+    margin: 0;
+    font-size: 3em;
+    color: #61B846;
+    font-size: 2.4375rem;
+}
+.blue{
+    margin: 0;
+    font-size: 3em;
+    color: #024F9D;
+    font-size: 1.75rem; 
+}
+#cart{
+    float: right;
+    width: 3rem;
+    height:2.5625rem;
+
+}
+#grocery{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63.5rem;
+    height: 33.625rem;
+    border-radius: 0.9375rem;
+}
+#searchbar{
+  margin: auto;
+  width: 50%;
+   display: flex;
+   width: 50%;
+   width: 23.5rem;
+   height: 2.125rem;
+   background-color: rgba(217, 217, 217, 0.75);
+   opacity: 0.8;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+
+#searchIcon{
+    padding: 4px;
+    width: 22px;
+    height: 22px;
+    opacity: 0.3;
+}
+#searchInput{
+    background-color: rgba(217, 217, 217, 0.75);
+    border: none;
+    color: #BFBCBC;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+
+}
+.bl{
+    height: 1.5625rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.5625rem; 
+}
+.items, .products{
+    display: flex;
+}
+.item, .product{
+    margin-left: 95px;
+}
+.isize{
+width: 135px;
+height: 99px;
+border-radius: 10px;
+border: 1px solid #61B846;
+}
+.itext{
+color: #2DB34A;
+font-size: 25px;
+font-weight: 600;
+line-height: 25px;
+}
+
+#addButton{
+width: 58px;
+height: 40px;
+border-radius: 10px;
+background: #61B846;
+color: #FFF;
+font-size: 26px;
+font-weight: 700;
+line-height: 25px;
+}
+.addtext{
+width: 240px;
+height: 30px;
+color: #BFBFBF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+}
+.navbar{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 40px  0px 40px 140px;
+    background-color: white;
+}
+.SaylaniButtons{
+    margin-left: 40%;
+    border-radius: 0.9375rem;
+    background: #61B846;
+    box-shadow: 0px 4px 4px 5px #D4D3D3;
+    width: 15.75rem;
+    height: 4.3125rem;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.linkInButton{
+color: #FFF;
+font-family: Inter;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5625rem; /* 83.333% */
+text-decoration: none; 
+    
+}
+#price{
+    margin-left: 20px;
+    padding: 10px;
+}
+.itemss{
+    display: flex;
+    margin: 10px;
+}
+.counter{
+padding: 10px;
+background-color: white;
+border: none;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+}
+#count{
+margin-top: 25px;
+padding: 10px;
+height: 20px;
+width: 10px;
+background-color: #BFBCBC;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 250% */
+}
+#total{
+   
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 80%;
+}
+.inputs{
+    width: 50%; 
+    padding-left: 100px;
+    align-items: center; 
+  }
+.inputField{
+    justify-content: center;
+    display: flex;
+    border: none;
+    display: block;
+    padding: 10px;
+    font: 1.5em;
+    width: 48%;
+    margin-right: 0px;
+}
+
+.in{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid  #D4D3D3;
+}
+.orders{
+    background-color: aqua;
+}
+.order{
+    margin: 7%;
+    border-bottom: 4px solid  #D4D3D3;
+}

@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="./userinterface.css">
+</head>
+<body>
+    <div class="ShoppingCart">
+    <div class="heading">
+        <h5 style="color:#024F9D ; font-size: 35px;">Shopping 
+        <span style="color:#61B846 ;  font-size: 30px;">Cart</span></h5>
+         <img  class="delete"  id="delete" src="../images/delete.png" alt="" >
+    </div> 
+    <div class="itemss">
+        <img src="../images/item5.png" alt="">
+        <span style="display: flex;">
+        <h4 style="padding: 10px;">ITEM NAME</h4>
+        <button id="decrement" class="counter">-</button>
+        <span id="count">0</span>
+        <button id="increment" class="counter">+</button>
+        <p id="price">$25.00</p>
+        </span>
+    </div>
+    <div class="itemss">
+        <img src="../images/item6.png" alt="">
+        <span style="display: flex;">
+        <h4 style="padding: 10px;">ITEM NAME</h4>
+        <button id="decrement" class="counter">-</button>
+        <span id="count">0</span>
+        <button id="increment" class="counter">+</button>
+        <p id="price">$45.00</p>
+        </span>
+    </div>
+    <div class="itemss">
+        <img src="../images/item7.png" alt="">
+        <span style="display: flex;">
+        <h4 style="padding: 10px;">ITEM NAME</h4>
+        <button id="decrement" class="counter">-</button>
+        <span id="count">0</span>
+        <button id="increment" class="counter">+</button>
+        <p id="price">$35.00</p>
+        </span>
+    </div>
+
+    <div style="display: flex; width: 100%; ">
+        <h4 style="padding: 10px;">Total</h4>
+        <span id="total">$ 0</span>
+    </div>
+
+    <div class="inputs">
+        <span class="in">
+            <input type="text" class="inputField" id="username" placeholder=" Full name">
+        </span>
+        <span class="in">
+            <input type="number" class="inputField" id="number" placeholder="Phone Number">
+        </span>
+        <span class="in">
+            <input type="email" id="email" class="inputField" placeholder="Email">
+        </span>
+        <span class="in">
+            <input type="text" class="inputField" id="Address" placeholder="Shipping Address">
+
+        </span>
+    </form>
+
+    
+    <button  class="SaylaniButtons" ><a class="linkInButton" href="#">Place order</a></button>
+
+    <div class="navbar">
+        <img src="../images/home2.png" alt="home">
+        <img src="../images/cartNaccount2.png" onclick="window.location.href='../user Interface/setting.html'" alt="cart and account">
+    </div>
+
+
+</div>
+    <script src="./counter.js"></script>
+    <script src="./delete.js" ></script>
+</body>
+</html>
