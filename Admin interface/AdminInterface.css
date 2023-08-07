@@ -1,0 +1,170 @@
+.ShoppingCart{
+    border-radius: 2.1875rem;
+    background: #FFF;
+    box-shadow: 0px 2px 12px 3px #61B846;
+    backdrop-filter: blur(25px);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    width: 430px;
+    }
+.header{
+    display: flex;
+    border-bottom: 4px solid#D9D9D9;
+    padding: 2%;
+}
+.adminProduct{
+    margin-bottom: 4%;
+    display: flex;
+width: 22.6875rem;
+height: 6rem;
+border-radius: 0.9375rem;
+border: 1px solid #65BD50;
+background: #FFF;
+}
+.productName{
+    color: #61B846;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5625rem;
+}
+.productPrice{
+padding-top: 5%;
+margin-left: 20%;
+display: block;
+float: right;
+color: #BFBCBC;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5625rem;
+}
+.navbar{
+    display: flex;
+    padding: 40px  0px 40px 140px;
+    background-color: white;
+}
+.option{
+    margin: 4%;
+    text-align: center;
+}
+.profilee , .description{
+    margin: 2%;
+width: 21.4375rem;
+height: 8.9375rem;
+border-radius: 0.9375rem;
+background: #D9D9D9;
+}
+
+.itemName {
+    display: flex;
+margin-top: 4%;
+width: 21.4375rem;
+height: 2.5625rem;
+border-radius: 0.9375rem;
+background: #D9D9D9;
+}
+.categoryName{
+margin-top: 4%;
+width: 21.4375rem;
+height: 2.5625rem;
+border-radius: 0.9375rem;
+
+}
+.textinner{
+text-decoration: none;
+border: none;
+background-color:  #D9D9D9;
+color: #BDBABA;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5625rem; 
+}
+
+
+.unitBlock{
+    margin: 2%;
+width: 11.9375rem;
+height: 2.5625rem;
+border-radius: 0.9375rem;
+background: #D9D9D9;
+}
+
+.SaylaniButtons{
+    border-radius: 0.9375rem;
+    background: #61B846;
+    box-shadow: 0px 4px 4px 5px #D4D3D3;
+    width: 15.75rem;
+    height: 4.3125rem;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.linkInButton{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem; /* 83.333% */
+    text-decoration: none;    
+}
+.inputField{
+        justify-content: center;
+        display: flex;
+        border: none;
+        display: block;
+        padding: 10px;
+        font: 1.5em;
+        width: 48%;
+        margin-right: 0px;
+    }
+
+.addButton{
+width: 3.43906rem;
+height: 2.5625rem;
+border-radius: 0.9375rem;
+background: #61B846;
+}
+.categories{
+    
+}
+.category{
+padding: 2%;
+margin: 4%;
+width: 17.8125rem;
+height: 3.5625rem;
+border-radius: 0.9375rem;
+border: 1px solid #65BD50;
+background: #FFF;
+}
+.catText{
+padding: 4%;
+width: 5.9375rem;
+color: #65BD50;
+font-family: Inter;
+font-size: 2.0375rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5625rem; 
+}
+
+.orders{
+    text-align: left;
+    
+}
+.order{
+    margin: 7%;
+    margin-top: 0px;
+    border-bottom: 4px solid  #D4D3D3;
+}
+.orderStatus{
+    margin-top: 2%;
+}

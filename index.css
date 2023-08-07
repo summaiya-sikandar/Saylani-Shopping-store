@@ -3,8 +3,23 @@
     font-family: Inter;
 }
 
+.ShoppingCart{
+border-radius: 2.1875rem;
+background: #FFF;
+box-shadow: 0px 2px 12px 3px #61B846;
+backdrop-filter: blur(25px);
+text-align: center;
+align-items: center;
+margin: auto;
+width: 50%;
+padding: 20px;
+width: 430px;
+height: 632px;
+}
+
 
 .SaylaniButtons{
+    
     border-radius: 0.9375rem;
     background: #61B846;
     box-shadow: 0px 4px 4px 5px #D4D3D3;
@@ -37,6 +52,7 @@ line-height: 1.5625rem; /* 83.333% */
 
 #SW{
     margin: 0;
+    margin-top: 10%;
     font-size: 3em;
     color: #61B846;
 }
@@ -56,6 +72,9 @@ line-height: 1.5625rem; /* 83.333% */
     width: 48%;
     margin-right: 0px;
 }
+.inputField:focus{
+    border: none;
+}
 .sin{
     text-decoration: none;
     text-align: center;
@@ -65,11 +84,6 @@ line-height: 1.5625rem; /* 83.333% */
     font-weight: 700;
     line-height: 1.5625rem; 
     color: #024F9D;
-}
-.inputs{
-    padding-left: 80px;
-    align-items: center;
-  width: 50%;
 }
 .icons{
     float: right;

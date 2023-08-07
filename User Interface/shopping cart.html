@@ -7,49 +7,49 @@
     <link rel="stylesheet" href="./userinterface.css">
 </head>
 <body>
-    <div class="ShoppingCart">
+<div class="ShoppingCart">
     <div class="heading">
-        <h5 style="color:#024F9D ; font-size: 35px;">Shopping 
-        <span style="color:#61B846 ;  font-size: 30px;">Cart</span></h5>
+        <h5 style="color:#024F9D ; font-size: 25px; ">Shopping 
+        <span style="color:#61B846 ;  font-size: 20px;">Cart</span></h5>
          <img  class="delete"  id="delete" src="../images/delete.png" alt="" >
     </div> 
-    <div class="itemss">
+    <div class="itemss" id="1">
         <img src="../images/item5.png" alt="">
         <span style="display: flex;">
         <h4 style="padding: 10px;">ITEM NAME</h4>
-        <button id="decrement" class="counter">-</button>
-        <span id="count">0</span>
-        <button id="increment" class="counter">+</button>
-        <p id="price">$25.00</p>
+        <button class="decrement counter" onclick="decreaseQty(this)">-</button>
+        <span class="qty">0</span>
+        <button class="increment counter" onclick="increaseQty(this)">+</button>
+        <p >$ <span class="price">25.00</span></p>
         </span>
     </div>
-    <div class="itemss">
+    <div class="itemss" id="2">
         <img src="../images/item6.png" alt="">
         <span style="display: flex;">
         <h4 style="padding: 10px;">ITEM NAME</h4>
-        <button id="decrement" class="counter">-</button>
-        <span id="count">0</span>
-        <button id="increment" class="counter">+</button>
-        <p id="price">$45.00</p>
+        <button class="decrement counter" onclick="decreaseQty(this)">-</button>
+        <span class="qty">0</span>
+        <button class="increment counter" onclick="increaseQty(this)">+</button>
+        <p >$ <span class="price">45.00</span></p>
         </span>
     </div>
-    <div class="itemss">
+    <div class="itemss" id="3">
         <img src="../images/item7.png" alt="">
         <span style="display: flex;">
         <h4 style="padding: 10px;">ITEM NAME</h4>
-        <button id="decrement" class="counter">-</button>
-        <span id="count">0</span>
-        <button id="increment" class="counter">+</button>
-        <p id="price">$35.00</p>
+        <button class="decrement counter" onclick="decreaseQty(this)">-</button>
+        <span class="qty">1</span>
+        <button class="increment counter" onclick="increaseQty(this)">+</button>
+        <p >$ <span class="price">35.00</span></p>
         </span>
     </div>
 
     <div style="display: flex; width: 100%; ">
         <h4 style="padding: 10px;">Total</h4>
-        <span id="total">$ 0</span>
+        <span id="total" >$ 0</span>
     </div>
 
-    <div class="inputs">
+    <form id="SignUp">
         <span class="in">
             <input type="text" class="inputField" id="username" placeholder=" Full name">
         </span>
@@ -61,21 +61,26 @@
         </span>
         <span class="in">
             <input type="text" class="inputField" id="Address" placeholder="Shipping Address">
-
         </span>
     </form>
+    <br>
 
     
     <button  class="SaylaniButtons" ><a class="linkInButton" href="#">Place order</a></button>
 
     <div class="navbar">
-        <img src="../images/home2.png" alt="home">
+        <img src="../images/home2.png" onclick="window.location.href='../user Interface/Shop.html'" alt="home">
         <img src="../images/cartNaccount2.png" onclick="window.location.href='../user Interface/setting.html'" alt="cart and account">
     </div>
 
 
+    </div>
+
 </div>
+
+
     <script src="./counter.js"></script>
+    <script src="./total.js"></script>
     <script src="./delete.js" ></script>
 </body>
 </html>

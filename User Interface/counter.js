@@ -1,18 +1,13 @@
-let counter=0
-const counterValue = document.getElementById('count');
-const incrementBtn = document.getElementById('increment');
-const decrementBtn = document.getElementById('decrement');
+function increaseQty(e) { 
+    var span = e.previousElementSibling;
+    var currentVal = span.innerText;
+    span.innerText = ++currentVal;
+}
+function decreaseQty(e) { 
+    var span = e.nextElementSibling;
+    var currentVal = span.innerText;
+    if(currentVal == 0) return;
+     span.innerText = --currentVal;
 
+}
 
-incrementBtn.addEventListener('click', () => {
-    counter++;
-    counterValue.innerHTML = counter;
-});
-  
-// To decrement the value of counter
-decrementBtn.addEventListener('click', () => {
-    counter--;
-    counterValue.innerHTML = counter;
-});
-
-  

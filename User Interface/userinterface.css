@@ -4,14 +4,21 @@ body{
 }
 
 .ShoppingCart{
-    align-items: center;
-    margin: auto;
-    width: 50%;
-    border: 2px solid black;
-    padding: 20px;
+ border-radius: 2.1875rem;
+background: #FFF;
+box-shadow: 0px 2px 12px 3px #61B846;
+backdrop-filter: blur(25px);
+text-align: center;
+align-items: center;
+margin: auto;
+width: 50%;
+padding: 20px;
+width: 430px;
+max-height: 632px;
+overflow-y: auto;
 }
 
-.heading{
+.heading, .items,.product{
     display: flex;
 }
 
@@ -45,8 +52,8 @@ height: 31px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 63.5rem;
-    height: 33.625rem;
+    width: 376px;
+height: 218px;
     border-radius: 0.9375rem;
 }
 #searchbar{
@@ -85,23 +92,24 @@ height: 31px;
     font-weight: 700;
     line-height: 1.5625rem; 
 }
-.items, .products{
-    display: flex;
+
+.products{
+    overflow: auto;
 }
 .item, .product{
-    margin-left: 95px;
+    margin: 2%;
 }
 .isize{
-width: 135px;
-height: 99px;
+width: 85px;
+height: 49px;
 border-radius: 10px;
 border: 1px solid #61B846;
 }
 .itext{
-color: #2DB34A;
-font-size: 25px;
-font-weight: 600;
-line-height: 25px;
+    color: #2DB34A;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 25px; 
 }
 
 #addButton{
@@ -126,13 +134,10 @@ line-height: 12px;
 }
 .navbar{
     display: flex;
-    width: 50%;
-    margin: auto;
     padding: 40px  0px 40px 140px;
     background-color: white;
 }
 .SaylaniButtons{
-    margin-left: 40%;
     border-radius: 0.9375rem;
     background: #61B846;
     box-shadow: 0px 4px 4px 5px #D4D3D3;
@@ -142,6 +147,7 @@ line-height: 12px;
     color: white;
     border: none;
 }
+
 .linkInButton{
 color: #FFF;
 font-family: Inter;
@@ -149,10 +155,10 @@ font-size: 1.875rem;
 font-style: normal;
 font-weight: 700;
 line-height: 1.5625rem; /* 83.333% */
-text-decoration: none; 
-    
+text-decoration: none;    
 }
-#price{
+
+.price{
     margin-left: 20px;
     padding: 10px;
 }
@@ -171,7 +177,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 25px; 
 }
-#count{
+.qty{
 margin-top: 25px;
 padding: 10px;
 height: 20px;
@@ -185,10 +191,9 @@ font-weight: 400;
 line-height: 25px; /* 250% */
 }
 #total{
-   
     font-size: 20px;
     padding-top: 30px;
-    margin-left: 80%;
+    margin-left: 70%;
 }
 .inputs{
     width: 50%; 
@@ -214,9 +219,14 @@ line-height: 25px; /* 250% */
     border-bottom: 2px solid  #D4D3D3;
 }
 .orders{
-    background-color: aqua;
+    text-align: left;
+    
 }
 .order{
     margin: 7%;
+    margin-top: 0px;
     border-bottom: 4px solid  #D4D3D3;
+}
+.orderStatus{
+    margin-top: 2%;
 }
