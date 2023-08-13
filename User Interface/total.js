@@ -2,11 +2,9 @@ const price=document.getElementsByClassName("price");
 let priceArray=[]
 for(i=0;i<=price.length; i++){
     const p= price[i].innerText;
-    alert(p)
     priceArray.push(p)
     
 }
-alert(priceArray)
 const quantity=document.getElementsByClassName("qty");
 let quantityArray=[]
 for(i=0;i<=quantity.length; i++){

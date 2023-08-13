@@ -7,6 +7,7 @@ const firebaseConfig = {
     appId: "1:688654344247:web:45a4e210075a5aee9a5fb2",
     measurementId: "G-65Q97G3FLY"
   };
+
   const app = firebase.initializeApp(firebaseConfig);
   console.log(app)
   
@@ -33,7 +34,7 @@ const firebaseConfig = {
                       const user = { email: email };
                       localStorage.setItem('user', JSON.stringify(user));
                       console.log('User created successfully.')
-                      window.location.href = '../User Interface/Shop.html'
+                      window.location.href = '../Common Screen/signin.html'
                   })
                   .catch((error) => {
                       console.log(error);
@@ -61,12 +62,12 @@ const firebaseConfig = {
                           const user = { email: email };
                           localStorage.setItem('user', JSON.stringify(user));
                           console.log('User created successfully.')
-                          window.location.href = '../Admin/items/items.html'
+                          window.location.href = '../Admin interface/Admin Products.html'
                       }
                       else {
                           const user = { email: email };
                           localStorage.setItem('user', JSON.stringify(user));
-                          window.location.href = '../Home/home.html'
+                          window.location.href = '../User Interface/Shop.html'
                       }
                   } else {
                       console.log("No data available");
@@ -82,3 +83,4 @@ const firebaseConfig = {
           });
   
   }
+
