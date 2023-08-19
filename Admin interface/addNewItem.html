@@ -16,35 +16,23 @@
     </div>
 
     <h2 style="text-align: left; color: #024F9D;">All Products</h2>
-    <div class="profilee">
-        <img src="../images/camera.png" style="text-align:  center; height: 60px; width: 60px; padding-top: 10%;" alt="">
-    </div>
 
-    <div class="itemName">
-        <input type="text" placeholder="Item name" class="textinner">
-    </div>
-    <div class="itemName">
-        <select name="category" id="category" style="background-color: #D9D9D9 ; border: none;">
+<form id="addProductForm">
+    <input class="profilee" type="file" id="fileInput"  >
+    <input class="itemName textinner" type="text" placeholder="Item name" id="item-name">
+    <select name="category" class="itemName textinner" id="category" style="background-color: #D9D9D9 ; border: none;">
             <option value="Masala">Masala</option>
             <option value="Fruits">Fruits</option>
             <option value="Vegetables">Vegetables</option>
         </select>
-    </div>
-    <div class="description">
-        
-    </div>
-    <div class="unit" style="display: flex;">
-         <h2 style="text-align: left; color: #024F9D;">Unit Name</h2>
-         <div class="unitBlock" ></div>
-    </div>
+    <input type="text" name="description itemName textinner" class="description" id="description" placeholder="description">  
+    <input class="unit itemName textinner"  type="text" id="unit-name" placeholder="Unit Name">
+    <input class="unit itemName textinner" type="text" id="unit-price" placeholder="Unit Price">
 
-    <div class="unit" style="display: flex;" >
-        <h2 style="text-align: left; color: #024F9D;">Unit Price</h2>
-        <div class="unitBlock" ></div>
-    </div>
-  
-    <button  class="SaylaniButtons" ><a class="linkInButton" href="#">Add product</a></button>
+    <button type="button"  class="SaylaniButtons linkInButton" onclick="addProduct()" >Add product</button>
+</form>
 
+<!-- Navbar -->
     <div class="navbar">
         <div class="option">
            <img src="../images/homee.png" width="20px" ; height=" 20px " alt="">
@@ -61,6 +49,14 @@
 
    </div>
 </div>
+
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+<script src="../Firebase/firebase-config.js"></script>
+<script src="../Firebase/product.js"></script>
+
         
 </body>
 </html>

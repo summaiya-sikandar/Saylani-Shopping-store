@@ -230,3 +230,10 @@ line-height: 25px; /* 250% */
 .orderStatus{
     margin-top: 2%;
 }
+
+#productPrice{
+    margin: 4%;
+}
+#productUnit{
+    margin: 4%;
+}

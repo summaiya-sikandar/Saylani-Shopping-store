@@ -44,33 +44,18 @@
     </span>
 </div>
 <div class="products">
-    <div class="product">
-    <img src="../images/meat.png" alt="meat">
-    <h4>Meat &nbsp;&nbsp;&nbsp;&nbsp; <span>Rs.800- per Kg</span></h4>
+    <div class="product" id="productDiv">
+    <img src="../images/meat.png" id="productImage" width="80px" height="80px" alt="meat">
+    <h4 id="productName">Meat &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+    <span id="productPrice">Rs.800 </span> 
+    <span id="productUnit"> Kg</span>
     <span>
-        <p class="addtext">This is product description
+        <p class="addtext" id="productDesc">This is product description
             <br>This is abc product description</p>
         <button id="addButton">+</button>
     </span>
     </div>
-    <div class="product">
-    <img src="../images/fish.png" alt="fish">
-    <h4>Meat &nbsp;&nbsp;&nbsp;&nbsp; <span>Rs.450- per Kg</span></h4>
-    <span>
-        <p class="addtext">This is product description
-            <br>This is abc product description</p>
-        <button id="addButton">+</button>
-    </span>
-    </div>
-    <div class="product">
-    <img src="../images/qeema.png" alt="qeema">
-    <h4>Meat &nbsp;&nbsp;&nbsp;&nbsp; <span>Rs.800- per Kg</span></h4>
-    <span>
-        <p class="addtext">This is product description
-            <br>This is abc product description</p>
-        <button id="addButton">+</button>
-    </span>
-    </div>
+
 </div>
 
 <div class="navbar">
@@ -79,6 +64,12 @@
 </div>
 
 </div>
-
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+<script src="../Firebase/firebase-config.js"></script>
+<script src="../Firebase/product.js"></script>
 </body>
+
 </html>
